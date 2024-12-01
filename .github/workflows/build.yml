@@ -47,7 +47,7 @@ jobs:
       run: |
         mkdir ${{ github.workspace }}/build
         cd ${{ github.workspace }}/build
-        git clone --depth=1 -b master https://github.com/2dust/AndroidLibV2rayLite.git
+        git clone --depth=1 -b master https://github.com/sagerenn/AndroidLibV2rayLite.git
         cd AndroidLibV2rayLite
         go get github.com/v2fly/v2ray-core/v5@${{ github.event.inputs.XRAY_CORE_VERSION }} || true
         gomobile init
