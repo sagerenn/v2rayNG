@@ -21,5 +21,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "v2rayNG"
+rootProject.name = "v2flyNG"
 include(":app")
